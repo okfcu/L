@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <link href="https://s3.amazonaws.com/codiqa-cdn/codiqa.ext.css" rel="stylesheet">
+  <link href="https://s3.amazonaws.com/codiqa-cdn/mobile/1.4.2/jquery.mobile-1.4.2.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="https://s3.amazonaws.com/codiqa-cdn/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+  <script src="https://s3.amazonaws.com/codiqa-cdn/codiqa.ext.js"></script>
+
+  <script src="script.js"></script>
+
+</head>
+<body>
+<div data-role="page" data-control-title="Home" id="page3">
+    <div data-theme="b" data-role="header">
+        <h1>
+            Header
+        </h1>
+    </div>
+    <div role="main" class="ui-content">
+        <div style=" text-align:center" data-controltype="image">
+            <img style="width: 100%; height: 200px" src="https://lh3.googleusercontent.com/N9GKFW_qu6HajNRG1-vF_cQpkNXEkqsayUfCh0ouNFtavgtquZU6K0ff-2sdHGVDJSy62H4V0588KiB-t4HVYrQE0oa7xQ-pkGE3aKQc-26SxvlNbhHye--fKtuX19HexXQHCkB1JHtIFBJSWRIalznUzll3ea471OPPQ4YLAL_41FYn-vfWLv_42YCbQ-PPxagXhe0qlpB-dh_qhPX6rW9mWjnRvf5TelgYK-I-7c0-b6XSiVtGE3PdT-uWWcHbpWwQHQOD0FcGyYWJpZUvYjeoHlhwcWbVS1lFYx0BgJCc7oQ_YzgQf0HaXbAT9AcFvK2KN2M3hRFif_1hkspf8RdWwHMJ-sxi3mK33c7_EYixzQOi1Oq2OK-T0X5ZaBgMxx3qJhacJHb2Rggye78E8SgzXyCnzPPVlokuIPswh46h198y8fL0elRLLulx4Fevt6zQZI05YsD1BIQiwDoitcHRLVQGGAb4wgVa28LYlVfZ1c7uDrsi9fX2x7npHW_Rb9Avy1kNMmCgeTkYoHHNIFjBk4DXCUIH9Yr26gCroUp1Z0zxOoVn1VeoDzJxw12NrI3Xcv3B9nvncyxAMqKeglNKUm_8uVY3CmjGB4CANNV06V8F1WNSagrTgdM=w1190-h755">
+        </div>
+        <ul data-role="listview" data-divider-theme="a" data-inset="true">
+            <li data-theme="a">
+                <a href="#page2" data-transition="none">
+                    Chicago
+                </a>
+            </li>
+            <li data-theme="a">
+                <a href="#page4" data-transition="none">
+                    Las Vegas
+                </a>
+            </li>
+            <li data-theme="a">
+                <a href="#page5" data-transition="none">
+                    Los Angeles
+                </a>
+            </li>
+            <li data-theme="a">
+                <a href="#page6" data-transition="none">
+                    New York City
+                </a>
+            </li>
+            <li data-theme="a">
+                <a href="#page7" data-transition="none">
+                    Washington, DC
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div data-theme="b" data-role="footer" data-position="fixed">
+        <h3 class="ui-title">
+            Real Estate
+        </h3>
+    </div>
+</div>
+<div data-role="page" data-control-title="chicago" data-theme="b" id="page2">
+    <div data-theme="b" data-role="header">
+        <h1 class="ui-title">
+            Rent House
+        </h1>
+        <a data-transition="none" href="#page3" class="ui-btn ui-btn-left">
+            Back
+        </a>
+    </div>
+    <div role="main" class="ui-content">
+        <div class="ui-grid-a">
+            <div class="ui-block-a">
+                <div data-controltype="textblock">
+                    <p>
+                        <strong>
+                            <span style="font-size: small;" data-mce-style="font-size: small;">
+                                Chicago branch
+                            </span>
+                        </strong>
+                    </p>
+                    <p>
+                        <span style="font-size: small;">
+                            Address
+                        </span>
+                    </p>
+                    <p>
+                        <span style="font-size: small;">
+                            5509 N Cumberland Ave #505, Chicago, IL 60656, USA
+                        </span>
+                    </p>
+                    <p>
+                        <span style="font-size: small;">
+                            Hours 9am - 18pm
+                        </span>
+                    </p>
+                    <p>
+                        <span style="font-size: small;">
+                            Web www.renthouse.com
+                        </span>
+                    </p>
+                </div>
+            </div>
+            <div class="ui-block-b">
+                <div style="" data-controltype="image">
+                    <img style="width: 100%; height: 200px" src="https://lh3.googleusercontent.com/AtlPQUnkifKCR1Tm6JHVrTAFwpdejGqyHWgh0v525G6ljPxJG1zDOfZQ95k-ZWT554_9st6owj1kG75Q_AFvdYhWDJiDHWV8VMBx5q350OmPH-80Qs7enL_RXXqYvBn7lMLdlBtUSIPCekzmaLutv60DRSHx4RfK2yajQEsrQsO3mkHLpx6AkJ5nlxWgYOt5SUr872319J1fucaFDgtc94rzFLQXtqhJZK8VJG_NVD6g3_d7sHgrlXX1ROCAeUeHpVYbl8LeKhrlpMZqNXmhIlCQWWigL8aKRLxxKM3UY7-61fDnRp4gjQwb6SitCSrAc6l0WKEpJns9pTumN6v4Iz-IXONrLDXMWS3VMas64rXzKlLJBpF6CLf_JAI__UomL9Frn2EzmoSUcs4cHuaTNT_uLZwHBiUp1V1NZM_sgiuOcLsP8Q7g1CcmYEjqqKVduGSpeb_cinbKaLswZoW3Dk2cOPMSAk9eFJhP_DuFZGrLfkiJuvYzy47IK2FKJqRhNZKuk8ZCgEv0E-cCMA6vaNtUcnLri6dwZzaj9sh8HL7pWvJptqUMyMaDGvNFjBE_2-Vhzk2k5OckmU8MPYQTJfuXm-0U5xyf5itMddZ-MiT70lmsu7KPK8Tyq-M=w1920-h940">
+                </div>
+            </div>
+        </div>
+        <div class="ui-grid-a">
+            <div class="ui-block-a">
+                <a href="#page2" class="ui-btn ">
+                    Map
+                </a>
+            </div>
+            <div class="ui-block-b">
+                <a href="#page2" class="ui-btn ">
+                    Call
+                </a>
+            </div>
+        </div>
+        <div data-controltype="textblock">
+            <p>
+                Chicago branch is Chicago's largest and most established rental agency.
+                We have been matching landlords and renters for more than 30 years.
+            </p>
+        </div>
+    </div>
+    <div data-theme="b" data-role="footer" data-position="fixed">
+        <h3 class="ui-title">
+            Real Estate
+        </h3>
+    </div>
+</div>
+<div data-role="page" data-control-title="lasvegas" data-theme="b" id="page4">
+    <div data-theme="b" data-role="header">
+        <h1 class="ui-title">
+            Rent House
+        </h1>
+        <a data-transition="none" href="#page3" class="ui-btn ui-btn-left">
+            Back
+        </a>
+    </div>
+    <div role="main" class="ui-content">
+        <div class="ui-grid-a">
+            <div class="ui-block-a">
+                <div data-controltype="textblock">
+                    <p>
+                        <strong>
+                            <span style="font-size: small;" data-mce-style="font-size: small;">
+                                Las Vegas branch
+                            </span>
+                        </strong>
+                    </p>
+                    <p>
+                        <span style="font-size: small;">
+                            Address:
+                        </span>
+                    </p>
+                    <p>
+                        <span style="font-size: small;">
+                            1750 E Sahara Ave, Las Vegas, NV 89104, USA
+                        </span>
+                    </p>
+                    <p>
+                        <span style="font-size: small;">
+                            Hours: 9am - 18pm
+                        </span>
+                    </p>
+                    <p>
+                        <span style="font-size: small;">
+                            Web: www.renthouse.com
+                        </span>
+                    </p>
+                </div>
+            </div>
+            <div class="ui-block-b">
+                <div style="" data-controltype="image">
+                    <img style="width: 100%; height: 200px" src="https://lh3.googleusercontent.com/XXrivhpgk4ZXUsItU7czgTg0t1xRAf4xikdMAQjc5grQC_1U24l0Z865iGPT3Xk0XYCSngOyl5lCAwht5QGG2iCNF5KPPzYZ4W4EMEkQ9vm5vOBWQlmN_d9XoKiBbYRQyTT1PbQF7W0gAvexyzJIAMkfwShsLUHNQwnbRf884ce6l_PkJCKEp6ns56XAzcv1VJTCU9_lj42cau2Date77ZKwKeKYciKIU72Bf0nI2ZnqKGpsGv9Mqk_V0njhoSJj6WJbZDIX3bcpbA0xEp_E8bPIO86RaaALOKganW0JOK58WKEmx7VbRNr9UyqdanCOX9RtzvNo-hDIBAIACqBSzcgDgCcX4kV_D2kzOwgGzsAZdosWIYvAfgqohQ4K1yyRaoO5gkSObHAJV7GCqkyFSzl4CTUDWsVe3qoYJ4MSvt324jEQVh61SNnWzbr_CjZm1EO7kr0NvzYXWMUT_i6Aa8o87N02M0wbwwjn2iEfj9vAeqjiDbkeTP83cXOiJ7TdwsySsufg64QWqAT6DE2mpri45bQC66JVMUosM_uJybxJRPnydoFgJgD1l5z5QiEuYSKh-7AfkdPEPAZTJjLesqTXiubBVQ1YgoKr3Wfll7gU5qBoNusgF5PW-lw=w1920-h940">
+                </div>
+            </div>
+        </div>
+        <div class="ui-grid-a">
+            <div class="ui-block-a">
+                <a href="#page2" class="ui-btn ">
+                    Map
+                </a>
+            </div>
+            <div class="ui-block-b">
+                <a href="#page2" class="ui-btn ">
+                    Call
+                </a>
+            </div>
+        </div>
+        <div data-controltype="textblock">
+            <p>
+                Established on September 14th, 1964, Las Vegas Real Estate Development
+                Co., Ltd., which is a financially strong company that has reached excellent
+                achievements.&nbsp;
+            </p>
+        </div>
+    </div>
+    <div data-theme="b" data-role="footer" data-position="fixed">
+        <h3 class="ui-title">
+            Real Estate
+        </h3>
+    </div>
+</div>
+<div data-role="page" data-control-title="losangeles" data-theme="b" id="page5">
+    <div data-theme="b" data-role="header">
+        <h1 class="ui-title">
+            Rent House
+        </h1>
+        <a data-transition="none" href="#page3" class="ui-btn ui-btn-left">
+            Back
+        </a>
+    </div>
+    <div role="main" class="ui-content">
+        <div class="ui-grid-a">
+            <div class="ui-block-a">
+                <div data-controltype="textblock">
+                    <p>
+                        <strong>
+                            <span style="font-size: small;" data-mce-style="font-size: small;">
+                                Los Angeles branch
+                            </span>
+                        </strong>
+                    </p>
+                    <p>
+                        <span style="font-size: small;">
+                            Address:
+                        </span>
+                    </p>
+                    <p>
+                        <span style="font-size: small;">
+                            11538 San Vicente Blvd, Los Angeles, CA 90049, USA
+                        </span>
+                    </p>
+                    <p>
+                        <span style="font-size: small;">
+                            Hours: 9am - 18pm
+                        </span>
+                    </p>
+                    <p>
+                        <span style="font-size: small;">
+                            Web: www.renthouse.com
+                        </span>
+                    </p>
+                </div>
+            </div>
+            <div class="ui-block-b">
+                <div style="" data-controltype="image">
+                    <img style="width: 100%; height: 200px" src="https://lh3.googleusercontent.com/_rbPbEL2cL5RapwwbAkkDNN80D4aVcVb5beLmMEkBVFoMXK1kWY3ztgojwawNZVcNvVB8RffszXQ31w-_82U2UIXbSyZLsDaXElzJo3KCE_hD4QZFtUvkF5a0vyw5ZM94LWelHmphdtzd43RifsVBPwXm03TsLfdPrPXzURkQrxsoOO4QkxkmUYDum-b2bW5F_eseJtWhTzQANf9NPiuQhZQfTDzdxoZ_hLxX0-QsqoqyM0fN0GZJLIPN9z80BFG4GypBF5ogCl9d7vJVERa0shQSVR95aq0_9A0Tvx00XHmaBxR2CMNcL_Z2lwdOQbDRtiIEX_mdD1lHho4j9Lfqp4WE-yL692VoJ0n9-SIX5rk-EkDoNeSQFmgm-6eVbLCXRdIJVOawojU7TQJjMcLE0-ZrUi7HZnFNaIqDBOEWMkgQXQk8o1iIH4BSA9CDjkD_Br3pkl0BGWL5b3Qp2403ffKodoDrXMAAAJQjvacZwKWCjUohu6JXa_vw687VyYsYFIpUGXRygHSEtgWa65oAvWuOQ6WBpJm-7WU7vk4ptvMJ-VdAi9bOqPiolETYezxgOFgQqNnivo45C5wvFa7M5XLAOCOlIbr66Olya1dqR44NZbseE0X1VaH_DY=w1920-h940">
+                </div>
+            </div>
+        </div>
+        <div class="ui-grid-a">
+            <div class="ui-block-a">
+                <a href="#page2" class="ui-btn ">
+                    Map
+                </a>
+            </div>
+            <div class="ui-block-b">
+                <a href="#page2" class="ui-btn ">
+                    Call
+                </a>
+            </div>
+        </div>
+        <div data-controltype="textblock">
+            <p>
+                Los Angeles agent is one of the leading property investment and asset
+                managers. Under the strategic management we are locally responsible for
+                the operative management in our market regions.
+            </p>
+        </div>
+    </div>
+    <div data-theme="b" data-role="footer" data-position="fixed">
+        <h3 class="ui-title">
+            Real Estate
+        </h3>
+    </div>
+</div>
+<div data-role="page" data-control-title="nyc" data-theme="b" id="page6">
+    <div data-theme="b" data-role="header">
+        <h1 class="ui-title">
+            Rent House
+        </h1>
+        <a data-transition="none" href="#page3" class="ui-btn ui-btn-left">
+            Back
+        </a>
+    </div>
+    <div role="main" class="ui-content">
+        <div class="ui-grid-a">
+            <div class="ui-block-a">
+                <div data-controltype="textblock">
+                    <p>
+                        <strong>
+                            NYC branch
+                        </strong>
+                    </p>
+                    <p>
+                        Address:
+                    </p>
+                    <p>
+                        1375 Broadway, New York, NY 10018, USA
+                    </p>
+                    <p>
+                        Hours: 9am - 18pm
+                    </p>
+                    <p>
+                        Web: www.renthouse.com
+                    </p>
+                </div>
+            </div>
+            <div class="ui-block-b">
+                <div style="" data-controltype="image">
+                    <img style="width: 100%; height: 200px" src="https://lh3.googleusercontent.com/anVH4x_XYf4CZhtJ9usNXteQu5rb2C6tFtLyszT4Ux1NJ_yYh2AnM6JNaknlf26qyNaPBUgmxerb8Oe3KJU4UhQzzBXT-cOlsmF0WVkEfcRW3z-aYnDQ4aMhFMzWoE2x9UzDsKzGSWse60Txe5wqsBKqUUkUB0wftQq74vdeHPTCGBMKbVypC10v-VFLHxKSTuMFA7ntnAABrYr2L1-4WSSciNl3tCAQDdHngTH225cQRJrQRpsgupMHzIkLKsnVV-65AgSMnQQ0_b6jawAGJdUQxuYmpEdc-x8kszh9pUelHslHtHF_6dvvu7v5eFw7ZkJO2nll7_Pgzk-6qJjhl4wEc1ifhT94FoEQZIdeIFrerXuFu_HqsZocTZ6nnahOxcv4j-yECNXbzwD5HQubLYUnLq4VexUJOixu6bZVAWMdv2VsoOhd7ACI2ouzBkLfc4zPC7smI0daKfZmc7ejKACMMF-NHaTSnSoghv_HOWN30eF-glcD-gwc2nDQ0jGswjuCdaZVP8qUdGGE6bPzt37m_dRULsdqqbTK1eIgvwUMGIMBzYiMTMySf2Rg4UX8iR-ae8e4H0YNW34vWmBF-b7FW_v5nOnbBcY8h_1RTXwL1iu81gmkfYyhGbE=w1920-h940">
+                </div>
+            </div>
+        </div>
+        <div class="ui-grid-a">
+            <div class="ui-block-a">
+                <a href="#page2" class="ui-btn ">
+                    Map
+                </a>
+            </div>
+            <div class="ui-block-b">
+                <a href="#page2" class="ui-btn ">
+                    Call
+                </a>
+            </div>
+        </div>
+        <div data-controltype="textblock">
+            <p>
+                NYC agency is founded by Phil Harris in 2010. With our unique contemporary
+                style and total passion for connecting people with property, we aspire
+                to provide the ultimate real estate experience for today’s modern consumer.
+            </p>
+        </div>
+    </div>
+    <div data-theme="b" data-role="footer" data-position="fixed">
+        <h3 class="ui-title">
+            Real Estate
+        </h3>
+    </div>
+</div>
+<div data-role="page" data-control-title="washington" data-theme="b" id="page7">
+    <div data-theme="b" data-role="header">
+        <h1 class="ui-title">
+            Rent House
+        </h1>
+        <a data-transition="none" href="#page3" class="ui-btn ui-btn-left">
+            Back
+        </a>
+    </div>
+    <div role="main" class="ui-content">
+        <div class="ui-grid-a">
+            <div class="ui-block-a">
+                <div data-controltype="textblock">
+                    <p>
+                        <strong>
+                            <span style="font-size: small;" data-mce-style="font-size: small;">
+                                Washington branch
+                            </span>
+                        </strong>
+                    </p>
+                    <p>
+                        <span style="font-size: small;">
+                            Address:
+                        </span>
+                    </p>
+                    <p>
+                        <span style="font-size: small;">
+                            2001 S St NW Suite 250, Washington, DC 20009, USA
+                        </span>
+                    </p>
+                    <p>
+                        <span style="font-size: small;">
+                            Hours: 9am - 18pm
+                        </span>
+                    </p>
+                    <p>
+                        <span style="font-size: small;">
+                            Web: www.renthouse.com
+                        </span>
+                    </p>
+                </div>
+            </div>
+            <div class="ui-block-b">
+                <div style="" data-controltype="image">
+                    <img style="width: 100%; height: 200px" src="https://lh3.googleusercontent.com/LccYPVKyPn9vT_Wj7307yZ1KShWI9Jf6kucwgV8e8Zs8lb7hjBsSZ30kAVxMqUIoyGLvAbKCD06CpumXqCzuPA3rCxqAg3y6SEUSeSvDTOjSRkZc5DFsJKdqyZ9Iti91JgVbjUWTZN_lSuynHhXLJPD8HfU8ns7WmbhU0n0FdbIdNXyefE_E13-MsmtvyKwI5Za4H2TTMfilDbfw3DQYQbgUEPNluwcgIhRn8mHk5Ff0EETN1qNOGdm1lAPKESUfhbax1KhLFHWisnr5lgcu4JDeuijeh3MixyPg6d7XuuB7nvTol-sZSwCane9A3BwKD4WQhI32lXzYWqY0C_uFs4_13fs5lKC18q_DesxItnNVeJbE6rwRgnkg4xMvHFrJRPnpSq_Bh6lnwPFXa1JRajvZ_Nl_lpYnrpzmhA7tXaE3Vrb6_vvRXGizKRpLrpkNvsRGoa_kgJjXM7XkhzkaJhqkha6k0D16VvIy0t578BkKKmP0d8XMjx-6W8-9AiAr1vTJf89Q_iT5JaFFGCg1Wg4LbhyIENYikUCN6539nHG1ePZgoQIIp5sA4zpZhGvCVQZBZTpcpMnMdzv8E1UTD76GmPyAZm03_yjfJ-eEZTRDBlaDQYe3rWw35xw=w1920-h940">
+                </div>
+            </div>
+        </div>
+        <div class="ui-grid-a">
+            <div class="ui-block-a">
+                <a href="#page2" class="ui-btn ">
+                    Map
+                </a>
+            </div>
+            <div class="ui-block-b">
+                <a href="#page2" class="ui-btn ">
+                    Call
+                </a>
+            </div>
+        </div>
+        <div data-controltype="textblock">
+            <p>
+                Our world-class sales and marketing teams of brokers and real estate associates
+                represent the most elegant and luxurious private homes, condominiums and
+                commercial projects in Wachington, DC.
+            </p>
+        </div>
+    </div>
+    <div data-theme="b" data-role="footer" data-position="fixed">
+        <h3 class="ui-title">
+            Real Estate
+        </h3>
+    </div>
+</div>
+</body>
+</html>
